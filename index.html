@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="img/meta.jpg" />
+    <title>List of friends || LinkedBOOK</title>
+    <link rel="icon" href="img/icon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="index.html"
+          ><img
+            class="logo"
+            src="img/linkedbook-logo.jpg"
+            title="Linked Book fictional social network"
+            alt="Linked Book logo"
+        /></a>
+        <h1 class="h1"></h1>
+      </div>
+          <div class="pagedata">
+        <div id="card-container"></div>
+        <div class="card-actions">
+          <button id="load-more">LOAD MORE</button>
+          <span class="card-count-info"
+            >Showing now <span id="card-count"></span> of total
+            <span id="card-total"></span> friends (<span id="card-left"></span>
+            left)
+          </span>
+        </div>
+        <button id="scrollToTopBtn">UP</button>
+        <button id="scrollToBottomBtn">DOWN</button>
+        <hr />
+        <p class="powered">
+          powered by
+          <a target="_blank" href="https://randomuser.me/">randomuser generator</a>
+        </p>
+      </div>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/scrollFunctions.js"></script>
+  </body>
+</html>
