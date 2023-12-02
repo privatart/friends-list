@@ -190,6 +190,7 @@ li {
 .card-count-info {
   color: var(--bright-color);
   font-size: 18px;
+  text-align: center;
   margin-left: 50px;
 }
 
