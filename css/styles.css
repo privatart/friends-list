@@ -82,7 +82,7 @@ li {
 .card {
   background-color: var(--card-color);
   height: 17vh;
-  width: 350px;
+  width: 330px;
   margin: 8px;
   border-radius: 16px;
   box-shadow: 0 30px 30px -25px rgba(#4133b7, 0.25);
