@@ -56,7 +56,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  overflow: hidden;
+/*   overflow: hidden; */
 }
 
 #card-container img {
