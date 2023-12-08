@@ -13,6 +13,7 @@ body {
   text-align: center;
   color: var(--bright-color);
   width: 100%;
+  max-width: 1400px;
   top: 0;
   padding-top: 10px;
   padding-bottom: 20px;
