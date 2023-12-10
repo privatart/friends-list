@@ -22,7 +22,7 @@ const cardCountInfo = document.querySelector(".card-count-info");
 
 let users;
 let cardLimit;
-const cardPerPage = window.innerWidth < 600 ? 3 : 9;
+const cardPerPage = window.innerWidth < 600 ? 4 : 9;
 let currentPage = 1;
 
 (async function fetchData() {
